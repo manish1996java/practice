@@ -1,0 +1,12 @@
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{book.title}}
+      </mat-panel-title>
+      <mat-panel-description>
+        {{book.price}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <img [src]="book.image" alt="" style="max-width: 200px;">
+    <p>{{book.description}}</p>
+</mat-expansion-panel>
